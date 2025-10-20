@@ -1,0 +1,12 @@
+name: MagicMathDisplay
+version: '1.0.0'
+main: com.connexal.magicmathdisplay.MagicMathDisplay
+api-version: '1.21'
+
+commands:
+  mmddemo:
+    permission: magicmathdisplay.demo
+
+permissions:
+  magicmathdisplay.demo:
+    default: op
